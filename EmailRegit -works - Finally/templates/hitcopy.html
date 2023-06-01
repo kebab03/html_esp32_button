@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>hitcopy</title>
+  <style>
+    /* CSS styles */
+  </style>
+</head>
+<body>
+  {% for button in button_data %}
+  <h4 id="h4_{{ button.buttonId }}">{{ button.buttonId }}</h4>
+  <h5 id="h5_{{ button.buttonLabel }}">{{ button.buttonLabel }}</h4>
+  {% endfor %}
+</body>
+</html>

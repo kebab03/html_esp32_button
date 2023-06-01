@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>hityfN</title>
+  <style>
+    /* CSS styles */
+  </style>
+</head>
+<body>
+ 
+<ul>
+  {% for button in button_data %}
+    <li>
+     
+      Button : {{ button['buttonLabel'] }}
+
+ Is @ pin : {{ button['buttonId'] }}
+    </li>
+  {% endfor %}
+</ul>
+
+
+
+
+</body>
+</html>
